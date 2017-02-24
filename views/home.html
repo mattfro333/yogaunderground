@@ -1,0 +1,1319 @@
+<body id="ut-sitebody" ng-controller="mainCtrl" class="home page-template-default page page-id-35" data-scrolleffect="easeInOutExpo" data-scrollspeed="1300">
+
+<a class="ut-offset-anchor" id="top" style="top:0px !important;"></a>
+<header id="header-section" class="ha-header fullwidth ut-header-light ">
+        <div class="ha-header-perspective">
+          <div class="ha-header-front">
+                <div class="grid-20 tablet-grid-50 mobile-grid-50 push-5">
+                        <div class="site-logo">
+                            <a href="http://yogaundergroundutah.com/" title="The Yoga Undergound" rel="home"><img data-altlogo="http://yogaundergroundutah.com/wp-content/uploads/2016/06/yu-logo-bw.png" src="http://yogaundergroundutah.com/wp-content/uploads/2016/06/yu-logo-bw.png" alt="The Yoga Undergound"></a>
+                        </div>
+
+                </div>
+          <nav id="navigation" class="grid-80 hide-on-tablet hide-on-mobile pull-5"><ul id="menu-main" class="menu sf-js-enabled sf-arrows">
+<li class="ut-home-link"><a href="#top" class="selected">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="" ng-click="gotoAnchor(x)" ng-repeat="x in [1]" class="">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="" ng-click="gotoAnchor(x)" ng-repeat="x in [2]"class="">Schedule</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="" ng-click="gotoAnchor(x)" ng-repeat="x in [3]"class="">Pricing</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="" ng-click="gotoAnchor(x)" ng-repeat="x in [4]" class="">Teachers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="" ng-click="gotoAnchor(x)" ng-repeat="x in [5]" class="">Training</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="" ng-click="gotoAnchor(x)" ng-repeat="x in [6]" class="">Reviews</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="" ng-click="gotoAnchor(x)" ng-repeat="x in [7]" class="">Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="" ng-click="gotoAnchor(x)" ng-repeat="x in [8]" class="">Healing Arts</a></li>
+<li class="contact-us menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item"><a href="" ng-click="gotoAnchor(x)" ng-repeat="x in [9]" class="">Contact</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="http://yogaundergroundutah.com/event/namaste-in-nature-retreat//" class="external sf-with-ul">Event Shop</a>
+<ul class="sub-menu" style="display: none;">
+  <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/cart" class="external">Cart</a></li>
+  <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/checkout" class="external">Checkout</a></li>
+  <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/my-account" class="external">My Account</a></li>
+</ul>
+</li>
+</ul></nav>
+<style>
+.navbar-header {
+  float: right;
+}
+li.left{
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+
+}
+div.navbar-collapse.collapse {
+  display: block;
+  overflow: hidden;
+  max-height: 0px;
+  -webkit-transition: max-height .9s ease;
+  -moz-transition: max-height .9s ease;
+  -o-transition: max-height .9s ease;
+  transition: max-height .9s ease;
+}
+div.navbar-collapse.collapse.in {
+  max-height: 2000px;
+}
+.rainbow {
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 2s infinite;
+
+  /* Internet Explorer */
+  -ms-animation: rainbow 2s infinite;
+
+  /* Standar Syntax */
+  animation: rainbow 2s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}
+}
+@media (min-width: 1025px) {
+  .ut-mm-button{
+    display:none;
+  }
+}
+</style>
+<nav class="navbar navbar-default" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header" >
+
+        <button class="ut-mm-button" type="button" ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed">
+        </button>
+
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" ng-class="!navCollapsed && 'in'">
+
+        <ul class="nav navbar-nav">
+<li class="left" class="ut-home-link"><a href="#top" class="selected">Home</a></li>
+<li class="left" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="" ng-click="gotoAnchor(x)" class="" ng-repeat="x in [1]">About</a></li>
+<li class="left" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="" ng-click="gotoAnchor(x)" ng-repeat="x in [2]"class="">Schedule</a></li>
+<li class="left" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="" ng-click="gotoAnchor(x)" ng-repeat="x in [3]"class="">Pricing</a></li>
+<li class="left" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="" ng-click="gotoAnchor(x)" ng-repeat="x in [4]"class="">Teachers</a></li>
+<li class="left" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="" ng-click="gotoAnchor(x)" ng-repeat="x in [5]" class="">Training</a></li>
+<li class="left" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="" ng-click="gotoAnchor(x)" ng-repeat="x in [6]" class="">Reviews</a></li>
+<li class="left" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="" ng-click="gotoAnchor(x)" ng-repeat="x in [7]" class="">Events</a></li>
+<li class="left"class="menu-item menu-item-type-post_type menu-item-object-page "><a href="" ng-click="gotoAnchor(x)" ng-repeat="x in [8]" class="">Healing Arts</a></li>
+<li class="left" class="contact-us menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item "><a href="" ng-click="gotoAnchor(x)" ng-repeat="x in [9]" class="">Contact</a></li>
+<li class="left" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  last"><a href="http://yogaundergroundutah.com/event/namaste-in-nature-retreat//" class="external">Event Shop</a>
+<ul class="sub-menu">
+  <li class="menu-item menu-item-type-custom menu-item-object-custom "><a href="/cart" class="external">Cart</a></li>
+  <li class="menu-item menu-item-type-custom menu-item-object-custom "><a href="/checkout" class="external">Checkout</a></li>
+  <li class="menu-item menu-item-type-custom menu-item-object-custom  last"><a href="/my-account" class="external">My Account</a></li>
+</ul>
+</li>
+</ul></div></nav>
+                </div>
+            </div>
+</header>
+  <div class="clear"></div>
+<section id="ut-hero" class="hero ha-waypoint parallax-section parallax-background fixed" data-animate-up="ha-header-hide" data-animate-down="ha-header-hide" style="background-position: 50% 0px; background-image: none;">
+
+        <img id="ut-rain-background" src="http://yogaundergroundutah.com/wp-content/uploads/2015/10/Brittany_SaltFlats-99BW-3.jpg" alt="rain" crossorigin="anonymous" style="width: 1104px; height: 735px;">
+    <div class="grid-container">
+        <div class="hero-holder grid-100 mobile-grid-100 tablet-grid-100 ut-hero-style-11" style="opacity: 1;">
+            <div class="hero-inner" style="text-align:center;">
+
+                                    <p><img class="aligncenter size-full wp-image-5027" src="http://yogaundergroundutah.com/wp-content/uploads/2015/10/yu-logo-white-6.png" alt="yoga underground logo" width="616" height="420"></p>
+
+                    <span class="hero-btn-holder">
+
+                        <a target="_self" class="hero-btn default" href="/auth"><div class=rainbow>Do yoga at home with us! Subscrice for our live-feed!!</div></a>
+
+                    </span>
+            </div>
+        </div>
+    </div>
+    <div data-section="top" class="ut-scroll-up-waypoint"></div>
+<canvas width="1519" height="1012" style="position: absolute; top: 0px; left: 0px; width: 1104px; height: 735px;"></canvas></section>
+
+<div class="clear"></div>
+
+<div id="anchor{{x}}" ng-repeat="x in [1]" id="main-content" class="wrap ha-waypoint" data-animate-up="ha-header-hide" data-animate-down="ha-header-small">
+    <a class="ut-offset-anchor" id="to-main-content"></a>
+        <div class="main-content-background">
+                    <section id="about" data-effect="fadeIn" data-width="centered" class="page-id-4961 entry-content parallax-background parallax-banner parallax-section  dark   fixed" style="background-position: 50% 241px;">
+
+                    <a class="ut-offset-anchor" id="section-about" name="section-about">about</a>
+                                    <div class="grid-container parallax-content section-header-holder">
+                                        <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
+                                            <header class="parallax-header pt-style-7 ">
+                                                <h2 class="parallax-title "><span>Welcome to The Yoga Underground</span></h2>
+
+
+                                            </header>
+                                        </div>
+                                    </div>
+
+                                    <div class="clear"></div>
+                                    <div class="grid-container section-content"><div class="grid-100 mobile-grid-100 tablet-grid-100">
+
+
+                                        <span style="" class="ut-highlight welcome"> <strong>The Yoga Underground is Utah’s only Ta<span>ṇ</span>h<span>ā</span> Yoga studio. Ta<span>ṇ</span>h<span>ā</span> Yoga first developed with deep Ashtanga roots, but has grown to include expressive and creative Tantric flowers. Our classes combine the poses and fluid transitions of Ashtanga with the expansiveness, soul-searching, and grace inherent in Tantra. Ta<span>ṇ</span>h<span>ā</span> means “having a thirst for living,” and our classes are designed to ignite creative self-expression, leaving you feeling strong, light-hearted, open-minded and optimistic.<p></p>
+</strong><p><strong>TYU was founded in 2010 to further spread the vision of the late and beloved Larry Schultz, Bad Man of Ashtanga; Larry’s playful and fun-loving attitude toward yoga inspired TYU owner Brittany Andrews to open her studio with the goal to revolutionize the human hearts of Utah County, one downward dog at a time. </strong>
+</p><div class="brookly-hatom-data" style="display:none;visibility:hidden;"><span class="entry-title">Welcome to The Yoga Underground</span><span class="updated"> June 23rd, 2016</span><span class="author vcard"><span class="fn">yogaunderground</span></span></div>
+                                    </span></div></div>
+                    <div class="ut-scroll-up-waypoint" data-section="section-about"></div>
+                          </section>
+                    <div class="clear"></div>
+                        <section id="counter" data-effect="fadeIn" data-width="centered" class="page-id-4595 entry-content parallax-background parallax-banner parallax-section  light   fixed" style="background-position: 50% 350px;">
+                              <a class="ut-offset-anchor" data-parent="section-about" id="section-counter" name="section-counter">counter</a>
+
+        <div class="parallax-overlay parallax-overlay-pattern style_one">
+                                    <div class="grid-container section-content"><div class="grid-100 mobile-grid-100 tablet-grid-100">
+                                        <div class="ut-one-third  "><div data-effecttype="counter" class="ut-counter-box ut-counter ut-already-counted" data-counter="6573"><i class="fa fa-users fa-4x" style="color: #ffffff"></i><span class="ut-count" style="color: #ffffff">6573</span><h3 class="ut-counter-details"> classes taught</h3></div></div>
+<div class="ut-one-third  "><div data-effecttype="counter" class="ut-counter-box ut-counter ut-already-counted" data-counter="504245"><i class="fa fa-smile-o fa-4x" style="color: #ffffff"></i><span class="ut-count" style="color: #ffffff">504245</span><h3 class="ut-counter-details"> handstand fails </h3></div></div>
+<div class="ut-one-third  ut-column-last"><div data-effecttype="counter" class="ut-counter-box ut-counter ut-already-counted" data-counter="17728563"><i class="fa fa-thumbs-up fa-4x" style="color: #ffffff"></i><span class="ut-count" style="color: #ffffff">17728563</span><h3 class="ut-counter-details"> moments of enlightenment </h3></div></div>
+<div class="brookly-hatom-data" style="display:none;visibility:hidden;"><span class="entry-title">Counter</span><span class="updated"> February 26th, 2016</span><span class="author vcard"><span class="fn">yogaunderground</span></span></div>
+
+
+                                    </div></div>
+
+                        <div class="clear"></div></div>
+                    <div class="ut-scroll-up-waypoint" data-section="section-counter" data-parent="section-about"></div>
+
+                    </section>
+                    <div id="anchor{{x}}" ng-repeat="x in [2]" class="">
+
+                    </div>
+                    <div class="clear"></div>
+                <section id="schedule" data-effect="fadeIn" data-width="centered" class="page-id-1893 entry-content normal-background  dark   ">
+                <a class="ut-offset-anchor" id="section-schedule" name="section-schedule">schedule</a>
+                                    <div class="grid-container section-header-holder">
+
+                                        <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
+
+                                            <header class="parallax-header pt-style-7 ">
+                                                <h2 class="parallax-title "><span>Schedule</span></h2>
+
+
+                                            </header>
+                                        </div>
+
+
+                                    </div>
+
+                                    <div class="clear"></div>
+                                        <div class="grid-container section-content"><div class="grid-100 mobile-grid-100 tablet-grid-100">
+
+                                        <div data-effect="fadeInUp" class="ut-one-fourth   animated fadeInUp" style="margin-bottom:20px"><div class="ut-service-column"><h3>Monday</h3><p>
+</p><ul class="fa-ul">
+<li><i class="fa-li fa fa-arrow-circle-right"></i>6 am</li>
+<li><i class="fa-li fa fa-arrow-circle-right"></i>12 noon</li>
+<li><i class="fa-li fa fa-arrow-circle-right"></i>5:30 pm</li>
+<li><i class="fa-li fa fa-arrow-circle-right"></i>7 pm</li>
+<li><i class="fa-li fa fa-arrow-circle-right"></i>8:15 pm (restorative)</li>
+</ul>
+<p></p></div></div>
+<div data-effect="fadeInUp" class="ut-one-fourth   animated fadeInUp" style="margin-bottom:20px"><div class="ut-service-column"><h3>Tuesday</h3><p>
+</p><ul class="fa-ul">
+<li><i class="fa-li fa fa-arrow-circle-right"></i>6 am</li>
+<li><i class="fa-li fa fa-arrow-circle-right"></i>12 noon</li>
+<li><i class="fa-li fa fa-arrow-circle-right"></i>6:30 pm</li>
+<li><i class="fa-li fa fa-arrow-circle-right"></i>8:15 pm</li>
+<li><i class="fa-li fa fa-arrow-circle-right"></i>5 pm (yoga for scoliosi)</li>
+</ul>
+<p></p></div></div>
+<div data-effect="fadeInUp" class="ut-one-fourth   animated fadeInUp" style="margin-bottom:20px"><div class="ut-service-column"><h3>Wednesday</h3><p>
+</p><ul class="fa-ul">
+<li><i class="fa-li fa fa-arrow-circle-right"></i>6 am</li>
+<li><i class="fa-li fa fa-arrow-circle-right"></i>12 noon</li>
+<li><i class="fa-li fa fa-arrow-circle-right"></i>5:30 pm</li>
+<li><i class="fa-li fa fa-arrow-circle-right"></i>7 pm</li>
+<li><i class="fa-li fa fa-arrow-circle-right"></i>8:15 pm (meditation)</li>
+</ul>
+<p></p></div></div>
+<div data-effect="fadeInUp" class="ut-one-fourth  ut-column-last animated fadeInUp" style="margin-bottom:20px"><div class="ut-service-column"><h3>Thursday</h3><p>
+</p><ul class="fa-ul">
+<li><i class="fa-li fa fa-arrow-circle-right"></i>6 am</li>
+<li><i class="fa-li fa fa-arrow-circle-right"></i>12 noon</li>
+<li><i class="fa-li fa fa-arrow-circle-right"></i>6:30 pm</li>
+<li><i class="fa-li fa fa-arrow-circle-right"></i>8:15 pm</li>
+</ul>
+<p></p></div></div>
+<div class="clear"></div><div data-effect="fadeInUp" class="ut-one-fourth   animated fadeInUp" style="margin-bottom:20px"><div class="ut-service-column"><h3>Friday</h3><p>
+</p><ul class="fa-ul">
+<li><i class="fa-li fa fa-arrow-circle-right"></i>6 am</li>
+<li><i class="fa-li fa fa-arrow-circle-right"></i>12 noon</li>
+<li><i class="fa-li fa fa-arrow-circle-right"></i>4:30 pm</li>
+</ul>
+<p></p></div></div>
+<div data-effect="fadeInUp" class="ut-one-fourth   animated fadeInUp" style="margin-bottom:20px"><div class="ut-service-column"><h3>Saturday</h3><p>
+</p><ul class="fa-ul">
+<li><i class="fa-li fa fa-arrow-circle-right"></i>7:30&nbsp;am</li>
+<li><i class="fa-li fa fa-arrow-circle-right"></i>9 am</li>
+</ul>
+<p></p></div></div>
+<div data-effect="fadeInUp" class="ut-one-fourth  ut-column-last animated fadeInUp" style="margin-bottom:20px"><div class="ut-service-column"><h3>Sunday</h3><p>
+</p><ul class="fa-ul">
+<li><i class="fa-li fa fa-arrow-circle-right"></i>10 am</li>
+<li><i class="fa-li fa fa-arrow-circle-right"></i>4 pm (trauma sensitive)</li>
+</ul>
+<p></p></div></div>
+<div class="clear"></div>
+<h4 style="text-align:center;">Each class is unique and is taught according to those present and the intuition of the teacher. All classes are open to and appropriate for all levels. (Yoga Nidra is “yogic sleep”: guided relaxation and deep meditation.)</h4>
+<div class="brookly-hatom-data" style="display:none;visibility:hidden;"><span class="entry-title">Schedule</span><span class="updated"> February 9th, 2017</span><span class="author vcard"><span class="fn">yogaunderground</span></span></div>
+                                        </div></div>
+                <div class="ut-scroll-up-waypoint" data-section="section-schedule"></div>
+
+                </section>
+
+                <div class="clear"></div>
+                <div id="anchor{{x}}" ng-repeat="x in [3]" class="">
+
+                </div>
+            <section id="pricing" data-effect="fadeIn" data-width="centered" class="page-id-4565 entry-content normal-background  light   ">
+
+                <a class="ut-offset-anchor" id="section-pricing" name="section-pricing">pricing</a>
+                        <div class="parallax-overlay parallax-overlay-pattern style_one">
+                                    <div class="grid-container section-header-holder">
+
+
+                                        <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
+
+                                            <header class="parallax-header pt-style-7 ">
+                                                <h2 class="parallax-title "><span>Pricing</span></h2>
+
+
+                                            </header>
+                                        </div>
+
+
+                                    </div>
+
+                            <div class="clear"></div>
+                                    <div class="grid-container section-content"><div class="grid-100 mobile-grid-100 tablet-grid-100">
+                                      <div class="ut-one-sixth  ">
+&nbsp; &nbsp;<br>
+</div>
+<div class="ut-two-thirds  ">
+<div class="pricess">
+<h3>Regular Rates</h3>
+<p>Monthly unlimited:&nbsp;<span>$50</span></p>
+<p>Student monthly unlimited:&nbsp;<span>$35</span></p>
+<p>Lunch-time only pass:&nbsp;<span>$30</span></p>
+<p>10-class punch card:&nbsp;<span>$85</span></p>
+<p>Drop-in:&nbsp;<span>$10</span></p>
+</div>
+<p>&nbsp;<br>
+</p></div>
+<div class="ut-one-sixth ut-column-last  ">
+&nbsp; &nbsp;<br>
+</div><div class="clear"></div>
+<div class="clear"></div>
+<h3 style="text-align: center; font-size: 19px;"><em>Private instruction, group classes, corporate rates, and corporate retreats available.</em><br>
+<em> Please contact us for further details.</em></h3>
+<p>&nbsp;</p>
+<div class="brookly-hatom-data" style="display:none;visibility:hidden;"><span class="entry-title">Pricing</span><span class="updated"> October 6th, 2015</span><span class="author vcard"><span class="fn">yogaunderground</span></span></div>
+                                        </div></div>
+      <div class="clear"></div></div>
+
+      <div id="anchor{{x}}" ng-repeat="x in [4]" class="">
+
+      </div>
+      <div class="ut-scroll-up-waypoint" data-section="section-pricing"></div>
+
+                </section>
+
+        <div class="clear"></div>
+                <section id="teachers" data-effect="fadeIn" data-width="centered" class="page-id-4377 entry-content normal-background  dark   ">
+
+                <a class="ut-offset-anchor" id="section-teachers" name="section-teachers">teachers</a>
+                                    <div class="grid-container section-header-holder">
+                                        <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
+
+                                            <header class="parallax-header pt-style-7 ">
+                                                <h2 class="parallax-title "><span>Teachers</span></h2>
+
+
+                                                    <div class="lead"><p>All teachers have successfully completed a minimum of a 200-hour yoga teacher training program registered with The Yoga Alliance</p>
+</div>
+
+
+                                            </header>
+                                        </div>
+
+
+                                    </div>
+
+                                    <div class="clear"></div>
+
+
+
+
+
+
+
+
+                                        <div class="grid-container section-content"><div class="grid-100 mobile-grid-100 tablet-grid-100">
+
+
+
+
+                                        <div class="brookly-hatom-data" style="display:none;visibility:hidden;"><span class="entry-title">Teachers</span><span class="updated"> February 26th, 2016</span><span class="author vcard"><span class="fn">yogaunderground</span></span></div>
+
+
+
+        <div class="member-wrap">
+
+
+
+
+                <div class="member-box ut-member-style-1 grid-25 tablet-grid-25 mobile-grid-50">
+
+
+                    <div class="mp-holder">
+
+
+                            <figure class="member-photo">
+
+
+                                <img class="utlazy" src="http://yogaundergroundutah.com/wp-content/uploads/2015/08/Brittany-w440h440.jpg" alt="Brittany" data-original="http://yogaundergroundutah.com/wp-content/uploads/2015/08/Brittany-w440h440.jpg" style="display: block;">
+
+                                <figcaption class="member-description">
+                                    <h3>Brittany</h3>
+                                    <span>Owner / Unicorn</span>
+                                    <a data-member="" href="#" class="ut-member-details ut-show-member-details ut-square">Read Bio<i class="fa fa-arrow-circle-right"></i></a>
+                                </figcaption>
+
+                            </figure>
+
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="member-box ut-member-style-1 grid-25 tablet-grid-25 mobile-grid-50">
+
+
+                    <div class="mp-holder">
+
+
+                            <figure class="member-photo">
+
+
+                                <img class="utlazy" src="http://yogaundergroundutah.com/wp-content/uploads/2015/08/Stephanie-w440h440.jpg" alt="Stephanie" data-original="http://yogaundergroundutah.com/wp-content/uploads/2015/08/Stephanie-w440h440.jpg" style="display: block;">
+
+                                <figcaption class="member-description">
+                                    <h3>Stephanie</h3>
+                                    <span></span>
+                                    <a data-member="1" href="#" class="ut-member-details ut-show-member-details ut-square">Read Bio<i class="fa fa-arrow-circle-right"></i></a>
+                                </figcaption>
+
+                            </figure>
+
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="member-box ut-member-style-1 grid-25 tablet-grid-25 mobile-grid-50">
+
+
+                    <div class="mp-holder">
+
+
+                            <figure class="member-photo">
+
+
+                                <img class="utlazy" src="http://yogaundergroundutah.com/wp-content/uploads/2015/08/Kelli-w440h440.jpg" alt="Kelli" data-original="http://yogaundergroundutah.com/wp-content/uploads/2015/08/Kelli-w440h440.jpg" style="display: block;">
+
+                                <figcaption class="member-description">
+                                    <h3>Kelli</h3>
+                                    <span></span>
+                                    <a data-member="2" href="#" class="ut-member-details ut-show-member-details ut-square">Read Bio<i class="fa fa-arrow-circle-right"></i></a>
+                                </figcaption>
+
+                            </figure>
+
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="member-box ut-member-style-1 grid-25 tablet-grid-25 mobile-grid-50">
+
+
+                    <div class="mp-holder">
+
+
+                            <figure class="member-photo">
+
+
+                                <img class="utlazy" src="http://yogaundergroundutah.com/wp-content/uploads/2015/08/Amber-w440h440.png" alt="Amber" data-original="http://yogaundergroundutah.com/wp-content/uploads/2015/08/Amber-w440h440.png" style="display: block;">
+
+                                <figcaption class="member-description">
+                                    <h3>Amber</h3>
+                                    <span></span>
+                                    <a data-member="3" href="#" class="ut-member-details ut-show-member-details ut-square">Read Bio<i class="fa fa-arrow-circle-right"></i></a>
+                                </figcaption>
+
+                            </figure>
+
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="member-box ut-member-style-1 grid-25 tablet-grid-25 mobile-grid-50">
+
+
+                    <div class="mp-holder">
+
+
+                            <figure class="member-photo">
+
+
+                                <img class="utlazy" src="http://yogaundergroundutah.com/wp-content/uploads/2015/08/Ruth-w440h440.jpg" alt="Ruth" data-original="http://yogaundergroundutah.com/wp-content/uploads/2015/08/Ruth-w440h440.jpg" style="display: block;">
+                              <figcaption class="member-description">
+                                    <h3>Ruth</h3>
+                                    <span></span>
+                                    <a data-member="4" href="#" class="ut-member-details ut-show-member-details ut-square">Read Bio<i class="fa fa-arrow-circle-right"></i></a>
+                                </figcaption>
+                            </figure>
+                    </div>
+                </div>
+                <div class="member-box ut-member-style-1 grid-25 tablet-grid-25 mobile-grid-50">
+                    <div class="mp-holder">
+                            <figure class="member-photo">
+                                <img class="utlazy" src="http://yogaundergroundutah.com/wp-content/uploads/2015/08/Callie-w440h440.jpg" alt="Callie" data-original="http://yogaundergroundutah.com/wp-content/uploads/2015/08/Callie-w440h440.jpg" style="display: block;">
+                              <figcaption class="member-description">
+                                    <h3>Callie</h3>
+                                    <span></span>
+                                    <a data-member="5" href="#" class="ut-member-details ut-show-member-details ut-square">Read Bio<i class="fa fa-arrow-circle-right"></i></a>
+                                </figcaption>
+
+                            </figure>
+                    </div>
+                </div>
+                <div class="member-box ut-member-style-1 grid-25 tablet-grid-25 mobile-grid-50">
+                    <div class="mp-holder">
+                            <figure class="member-photo">
+                                <img class="utlazy" src="http://yogaundergroundutah.com/wp-content/uploads/2015/08/Alex-w440h440.jpg" alt="Alex" data-original="http://yogaundergroundutah.com/wp-content/uploads/2015/08/Alex-w440h440.jpg" style="display: block;">
+                                <figcaption class="member-description">
+                                    <h3>Alex</h3>
+                                    <span></span>
+                                    <a data-member="6" href="#" class="ut-member-details ut-show-member-details ut-square">Read Bio<i class="fa fa-arrow-circle-right"></i></a>
+                                </figcaption>
+                            </figure>
+                    </div>
+                </div>
+                <div class="member-box ut-member-style-1 grid-25 tablet-grid-25 mobile-grid-50">
+
+
+                    <div class="mp-holder">
+
+
+                            <figure class="member-photo">
+
+                                <img class="utlazy" src="http://yogaundergroundutah.com/wp-content/uploads/2014/03/Kimmi-w440h440.jpg" alt="Kimmi" data-original="http://yogaundergroundutah.com/wp-content/uploads/2014/03/Kimmi-w440h440.jpg" style="display: block;">
+
+                                <figcaption class="member-description">
+                                    <h3>Kimmi</h3>
+                                    <span></span>
+                                    <a data-member="7" href="#" class="ut-member-details ut-show-member-details ut-square">Read Bio<i class="fa fa-arrow-circle-right"></i></a>
+                                </figcaption>
+
+                            </figure>
+                    </div>
+
+                </div>
+                <div class="member-box ut-member-style-1 grid-25 tablet-grid-25 mobile-grid-50">
+                    <div class="mp-holder">
+                            <figure class="member-photo">
+                                <img class="utlazy" src="http://yogaundergroundutah.com/wp-content/uploads/2014/03/Marisa-w440h440.jpg" alt="Marisa" data-original="http://yogaundergroundutah.com/wp-content/uploads/2014/03/Marisa-w440h440.jpg" style="display: block;">
+
+                                <figcaption class="member-description">
+                                    <h3>Marisa</h3>
+                                    <span></span>
+                                    <a data-member="8" href="#" class="ut-member-details ut-show-member-details ut-square">Read Bio<i class="fa fa-arrow-circle-right"></i></a>
+                                </figcaption>
+                            </figure>
+                    </div>
+                </div>
+                <div class="member-box ut-member-style-1 grid-25 tablet-grid-25 mobile-grid-50">
+
+
+                    <div class="mp-holder">
+
+
+                            <figure class="member-photo">
+
+                                <img class="utlazy" src="http://yogaundergroundutah.com/wp-content/uploads/2014/03/Millie-w440h440.jpg" alt="Millie" data-original="http://yogaundergroundutah.com/wp-content/uploads/2014/03/Millie-w440h440.jpg" style="display: block;">
+                                <figcaption class="member-description">
+                                    <h3>Millie</h3>
+                                    <span></span>
+                                    <a data-member="9" href="#" class="ut-member-details ut-show-member-details ut-square">Read Bio<i class="fa fa-arrow-circle-right"></i></a>
+                                </figcaption>
+
+                            </figure>
+                    </div>
+                </div>
+                <div class="member-box ut-member-style-1 grid-25 tablet-grid-25 mobile-grid-50">
+                    <div class="mp-holder">
+                            <figure class="member-photo">
+                                <img class="utlazy" src="http://yogaundergroundutah.com/wp-content/uploads/2014/03/Stephanie-Mc-w440h440.jpg" alt="Stephanie" data-original="http://yogaundergroundutah.com/wp-content/uploads/2014/03/Stephanie-Mc-w440h440.jpg" style="display: block;">
+                                <figcaption class="member-description">
+                                    <h3>Stephanie</h3>
+                                    <span></span>
+                                    <a data-member="10" href="#" class="ut-member-details ut-show-member-details ut-square">Read Bio<i class="fa fa-arrow-circle-right"></i></a>
+                                </figcaption>
+                            </figure>
+                    </div>
+
+                </div>
+        </div>
+            <div id="member_" class="ut-modal-box ut-modal-box-effect " data-id="teachers">
+
+            <div class="member-detail-box grid-parent grid-100 mobile-grid-100 tablet-grid-100 section-content">
+
+                <div class="grid-70 prefix-15 tablet-grid-100 mobile-grid-100 add-bottom">
+                    <a class="ut-hide-member-details" href="#"><i class="fa fa-times-circle  fa-large"></i></a>
+                </div>
+
+                <div class="clear"></div>
+                    <div class="ut-mfh grid-70 prefix-15 tablet-grid-100 mobile-grid-100">
+                        <figure class="member-photo-large ut-square"><img class="ut-square" alt="Brittany" src="http://yogaundergroundutah.com/wp-content/uploads/2015/08/Brittany.jpg"></figure>
+                    <div class="member-social">
+                      </div>
+
+                  </div>
+                <div class="grid-70 prefix-15 tablet-grid-100 mobile-grid-100">
+                <div class="member-box">
+                    <h3 class="ut-member-name">Brittany</h3>
+                    <span class="ut-member-title">Owner / Unicorn</span>
+                    <p>Brittany was raised to use her imagination; with a father who brought moon rocks home from work (his office had a rocket on the roof — as all financial planning offices do) Brittany spent her time trying to fly off the back porch, dig to China, and turn her four brothers into girls (she still doesn’t have a sister, but her brothers have grown on her. And Alex paints his nails, so there’s that.) A Colorado native, Brittany learned to love the outdoors after years of stubborn “ I HATE CAMPING ” arguments. Brittany loves flowers, plants, and outer space (in a magical way, NOT in a scientific way) and spends time reading, hiking, road biking, writing, and using her fiery personality to create adventures, make life interesting, and get into trouble. For Brittany, yoga is a lifestyle that weaves together creative, open-minded thinking, kindness, passion, strength, and love to create a tapestry of beauty woven throughout every aspect of her life — whether she’s in a handstand, stuck in traffic, or taking a nap with her puppy.</p>
+<div class="brookly-hatom-data" style="display:none;visibility:hidden;"><span class="entry-title">Teachers</span><span class="updated"> February 26th, 2016</span><span class="author vcard"><span class="fn">yogaunderground</span></span></div>                </div>
+                </div>
+
+                <div class="clear"></div>
+
+            </div>
+
+        </div>
+
+                <div id="member_1" class="ut-modal-box ut-modal-box-effect " data-id="teachers">
+
+            <div class="member-detail-box grid-parent grid-100 mobile-grid-100 tablet-grid-100 section-content">
+
+                <div class="grid-70 prefix-15 tablet-grid-100 mobile-grid-100 add-bottom">
+                    <a class="ut-hide-member-details" href="#"><i class="fa fa-times-circle  fa-large"></i></a>
+                </div>
+
+                <div class="clear"></div>
+
+
+                    <div class="ut-mfh grid-70 prefix-15 tablet-grid-100 mobile-grid-100">
+                        <figure class="member-photo-large ut-square"><img class="ut-square" alt="Stephanie" src="http://yogaundergroundutah.com/wp-content/uploads/2015/08/Stephanie.jpg"></figure>
+
+                    <div class="member-social">
+                      </div>
+
+                  </div>
+                <div class="grid-70 prefix-15 tablet-grid-100 mobile-grid-100">
+                <div class="member-box">
+                    <h3 class="ut-member-name">Stephanie</h3>
+                    <span class="ut-member-title"></span>
+                    <p>Stephanie Cirac was raised in Provo Utah, and decided she loved Happy Valley so much she would stay here forever. As a result she gained a deep love for skiing, hiking, and avoiding BYU traffic at all costs. 3 years ago she reluctantly took her first yoga class, and never looked back. Yoga has taught her to cultivate the deep connection between mind and body, and find the balance between strength and surrender. In her spare time you can find her organizing, and re-organizing her home, chasing her 2 year old, and convincing her husband to come to yoga (usually in vain). Closing remarks: Beans, rice, and a good yoga session can cure anything. </p>
+<div class="brookly-hatom-data" style="display:none;visibility:hidden;"><span class="entry-title">Teachers</span><span class="updated"> February 26th, 2016</span><span class="author vcard"><span class="fn">yogaunderground</span></span></div>                </div>
+                </div>
+
+                <div class="clear"></div>
+
+            </div>
+
+        </div>
+
+                <div id="member_2" class="ut-modal-box ut-modal-box-effect " data-id="teachers">
+
+            <div class="member-detail-box grid-parent grid-100 mobile-grid-100 tablet-grid-100 section-content">
+
+                <div class="grid-70 prefix-15 tablet-grid-100 mobile-grid-100 add-bottom">
+                    <a class="ut-hide-member-details" href="#"><i class="fa fa-times-circle  fa-large"></i></a>
+                </div>
+
+                <div class="clear"></div>
+                    <div class="ut-mfh grid-70 prefix-15 tablet-grid-100 mobile-grid-100">
+                        <figure class="member-photo-large ut-square"><img class="ut-square" alt="Kelli" src="http://yogaundergroundutah.com/wp-content/uploads/2015/08/Kelli.jpg"></figure>
+
+
+
+                    <div class="member-social">
+                          </div>
+                            </div>
+                <div class="grid-70 prefix-15 tablet-grid-100 mobile-grid-100">
+                <div class="member-box">
+                    <h3 class="ut-member-name">Kelli</h3>
+                    <span class="ut-member-title"></span>
+                    <p>Kelli will never forget the day when one of her friends that did yoga said to her ″you should try yoga… you’ll start doing that more than running.″ She never believed it until she finally tried it. <img draggable="false" class="emoji" alt="🙂" src="https://s.w.org/images/core/emoji/2.2.1/svg/1f642.svg"> 10 years and 2 kids later (with one more on the way) she’s still going strong. Born and raised in Utah, Kelli has an appreciation for the mountains and being outside. Hiking, fly fishing, water/snow skiing, and running are just a few of her addictions outside of yoga, all of which help her keep her sanity while raising a family to love and do the same. She was taught to love hard work, and while traveling the world gained a love for other cultures, food (thats why she has to keep up with her yoga) and most of all- people. Yoga has changed her life and she believes if you’re not having fun while doing yoga, you shouldn’t be doing it!</p>
+            <div class="brookly-hatom-data" style="display:none;visibility:hidden;"><span class="entry-title">Teachers</span><span class="updated"> February 26th, 2016</span><span class="author vcard"><span class="fn">yogaunderground</span></span></div>                </div>
+                </div>
+
+                <div class="clear"></div>
+
+            </div>
+
+        </div>
+
+                <div id="member_3" class="ut-modal-box ut-modal-box-effect " data-id="teachers">
+
+            <div class="member-detail-box grid-parent grid-100 mobile-grid-100 tablet-grid-100 section-content">
+
+                <div class="grid-70 prefix-15 tablet-grid-100 mobile-grid-100 add-bottom">
+                    <a class="ut-hide-member-details" href="#"><i class="fa fa-times-circle  fa-large"></i></a>
+                </div>
+
+                <div class="clear"></div>
+                    <div class="ut-mfh grid-70 prefix-15 tablet-grid-100 mobile-grid-100">
+                        <figure class="member-photo-large ut-square"><img class="ut-square" alt="Amber" src="http://yogaundergroundutah.com/wp-content/uploads/2015/08/Amber.png"></figure>
+                    <div class="member-social">
+                      </div>
+                  </div>
+                <div class="grid-70 prefix-15 tablet-grid-100 mobile-grid-100">
+                <div class="member-box">
+                    <h3 class="ut-member-name">Amber</h3>
+                    <span class="ut-member-title"></span>
+                    <p>Amber was raised in the best-kept secret of the United States: North Dakota. Growing up she was always involved in sports and staying active. As a result, eventually she tried yoga, but mostly to explore the physical benefits. Much to her surprise and delight, yoga provided mental and spiritual benefits as well. Finding that yoga has the ability to aid a person understand his/her self better and to live more in the present moment, she wanted to share this great find with others. In her free time, Amber also likes to take care of her horse, do Muay Thai, and eat candy…lots of candy.</p>
+<div class="brookly-hatom-data" style="display:none;visibility:hidden;"><span class="entry-title">Teachers</span><span class="updated"> February 26th, 2016</span><span class="author vcard"><span class="fn">yogaunderground</span></span></div>                </div>
+                </div>
+
+                <div class="clear"></div>
+
+            </div>
+
+        </div>
+                <div id="member_4" class="ut-modal-box ut-modal-box-effect " data-id="teachers">
+
+            <div class="member-detail-box grid-parent grid-100 mobile-grid-100 tablet-grid-100 section-content">
+
+                <div class="grid-70 prefix-15 tablet-grid-100 mobile-grid-100 add-bottom">
+                    <a class="ut-hide-member-details" href="#"><i class="fa fa-times-circle  fa-large"></i></a>
+                </div>
+
+                <div class="clear"></div>
+
+                    <div class="ut-mfh grid-70 prefix-15 tablet-grid-100 mobile-grid-100">
+                        <figure class="member-photo-large ut-square"><img class="ut-square" alt="Ruth" src="http://yogaundergroundutah.com/wp-content/uploads/2015/08/Ruth.jpg"></figure>
+                    <div class="member-social">
+                             </div>
+                          </div>
+                <div class="grid-70 prefix-15 tablet-grid-100 mobile-grid-100">
+                <div class="member-box">
+                    <h3 class="ut-member-name">Ruth</h3>
+                    <span class="ut-member-title"></span>
+                    <p>Ruth Westergard was born in Provo but was raised in Massachusetts. She loves traveling, this is reflected but not limited to her quest to graduate college as she attended Universities in Idaho, Hawaii, and finished in Utah. She was a vivacious kid always bouncing off the walls, to release this energy she was introduced to gymnastics at a very young age and took to it like a fish in water. As the years passed she developed a deep appreciation for the human body and its extraordinary capabilities. Stumbling upon yoga she discovered something that unlocked countless doors physically but also mentally, and spiritually. Her love for yoga grows, as she teaches and more importantly, as she continues to practice and learn.</p>
+<div class="brookly-hatom-data" style="display:none;visibility:hidden;"><span class="entry-title">Teachers</span><span class="updated"> February 26th, 2016</span><span class="author vcard"><span class="fn">yogaunderground</span></span></div>                </div>
+                </div>
+
+                <div class="clear"></div>
+
+            </div>
+
+        </div>
+                <div id="member_5" class="ut-modal-box ut-modal-box-effect " data-id="teachers">
+
+            <div class="member-detail-box grid-parent grid-100 mobile-grid-100 tablet-grid-100 section-content">
+
+                <div class="grid-70 prefix-15 tablet-grid-100 mobile-grid-100 add-bottom">
+                    <a class="ut-hide-member-details" href="#"><i class="fa fa-times-circle  fa-large"></i></a>
+                </div>
+
+                <div class="clear"></div>
+                    <div class="ut-mfh grid-70 prefix-15 tablet-grid-100 mobile-grid-100">
+                        <figure class="member-photo-large ut-square"><img class="ut-square" alt="Callie" src="http://yogaundergroundutah.com/wp-content/uploads/2015/08/Callie.jpg"></figure>
+
+                    <div class="member-social">
+                          </div>
+                      </div>
+                <div class="grid-70 prefix-15 tablet-grid-100 mobile-grid-100">
+                <div class="member-box">
+                    <h3 class="ut-member-name">Callie</h3>
+                    <span class="ut-member-title"></span>
+                    <p>Callie was born and raised in Seattle, Washington; technically from a city called Sammmamish, but no one can pronounce that! She loves wearing her moccasin slippers, watching Gilmore Girls and eating oatmeal. She grew up dancing and thought that was where her life was headed until she decided to follow her heart in a new direction. She is now at BYU majoring in Exercise and Wellness and minoring in Contemporary Dance. She loves yoga for it’s ability to strengthen the mind, body and spirit. She is all about positive energy, and uses yoga open her heart and reenter the world with a brighter perspective.</p>
+<div class="brookly-hatom-data" style="display:none;visibility:hidden;"><span class="entry-title">Teachers</span><span class="updated"> February 26th, 2016</span><span class="author vcard"><span class="fn">yogaunderground</span></span></div>                </div>
+                </div>
+
+                <div class="clear"></div>
+
+            </div>
+
+        </div>
+
+                <div id="member_6" class="ut-modal-box ut-modal-box-effect " data-id="teachers">
+
+            <div class="member-detail-box grid-parent grid-100 mobile-grid-100 tablet-grid-100 section-content">
+
+                <div class="grid-70 prefix-15 tablet-grid-100 mobile-grid-100 add-bottom">
+                    <a class="ut-hide-member-details" href="#"><i class="fa fa-times-circle  fa-large"></i></a>
+                </div>
+
+                <div class="clear"></div>
+                    <div class="ut-mfh grid-70 prefix-15 tablet-grid-100 mobile-grid-100">
+                        <figure class="member-photo-large ut-square"><img class="ut-square" alt="Alex" src="http://yogaundergroundutah.com/wp-content/uploads/2015/08/Alex.jpg"></figure>
+
+
+
+                    <div class="member-social">
+                    </div>
+
+                </div>
+
+                <div class="grid-70 prefix-15 tablet-grid-100 mobile-grid-100">
+                <div class="member-box">
+                    <h3 class="ut-member-name">Alex</h3>
+                    <span class="ut-member-title"></span>
+                    <p>Holla! Yes, I paint my nails.</p>
+<div class="brookly-hatom-data" style="display:none;visibility:hidden;"><span class="entry-title">Teachers</span><span class="updated"> February 26th, 2016</span><span class="author vcard"><span class="fn">yogaunderground</span></span></div>                </div>
+                </div>
+
+                <div class="clear"></div>
+
+            </div>
+
+        </div>
+
+                <div id="member_7" class="ut-modal-box ut-modal-box-effect " data-id="teachers">
+
+            <div class="member-detail-box grid-parent grid-100 mobile-grid-100 tablet-grid-100 section-content">
+
+                <div class="grid-70 prefix-15 tablet-grid-100 mobile-grid-100 add-bottom">
+                    <a class="ut-hide-member-details" href="#"><i class="fa fa-times-circle  fa-large"></i></a>
+                </div>
+
+                <div class="clear"></div>
+                    <div class="ut-mfh grid-70 prefix-15 tablet-grid-100 mobile-grid-100">
+                        <figure class="member-photo-large ut-square"><img class="ut-square" alt="Kimmi" src="http://yogaundergroundutah.com/wp-content/uploads/2014/03/Kimmi.jpg"></figure>
+                    <div class="member-social">
+                            </div>
+                        </div>
+                <div class="grid-70 prefix-15 tablet-grid-100 mobile-grid-100">
+                <div class="member-box">
+                    <h3 class="ut-member-name">Kimmi</h3>
+                    <span class="ut-member-title"></span>
+                    <p>Kimmi was born in Birmingham, Alabama but has since become a Utah native. She grew up practicing the piano for hours each day and thought music would be her only life long passion… until she took her first yoga class. Yoga became the perfect compliment to the busy and fast-paced lifestyle that she keeps up. She loves that it keeps her body healthy, mind at peace and heart happy! Along with yoga, Kimmi loves popcorn-movie nights, teaching piano lessons, shopping at Zara, eating Avocado Toast and spending time with her family.</p>
+<div class="brookly-hatom-data" style="display:none;visibility:hidden;"><span class="entry-title">Teachers</span><span class="updated"> February 26th, 2016</span><span class="author vcard"><span class="fn">yogaunderground</span></span></div>                </div>
+                </div><!-- close member box -->
+
+                <div class="clear"></div>
+            </div>
+        </div>
+                <div id="member_8" class="ut-modal-box ut-modal-box-effect " data-id="teachers">
+
+            <div class="member-detail-box grid-parent grid-100 mobile-grid-100 tablet-grid-100 section-content">
+
+                <div class="grid-70 prefix-15 tablet-grid-100 mobile-grid-100 add-bottom">
+                    <a class="ut-hide-member-details" href="#"><i class="fa fa-times-circle  fa-large"></i></a>
+                </div>
+                <div class="clear"></div>
+                    <div class="ut-mfh grid-70 prefix-15 tablet-grid-100 mobile-grid-100">
+                        <figure class="member-photo-large ut-square"><img class="ut-square" alt="Marisa" src="http://yogaundergroundutah.com/wp-content/uploads/2014/03/Marisa.jpg"></figure>
+
+
+
+                    <div class="member-social">
+                          </div>
+                      </div>
+                <div class="grid-70 prefix-15 tablet-grid-100 mobile-grid-100">
+                <div class="member-box">
+                    <h3 class="ut-member-name">Marisa</h3>
+                    <span class="ut-member-title"></span>
+                    <p>Born and raised in Portland Oregon, Marisa enjoyed a life of Neil Diamond, year round sandal wearing, and family trips to the local recycling center.<br>
+This racial chameleon loves sushi, sunshine, anything Disney, and all forms of physical activity, leading to her graduation in Exercise &amp; Wellness from BYU. She discovered yoga through weekly trips with her best friend’s mom and fell in love with the intensity of the practice. Recently, she has<br>
+discovered the holistic and restorative properties of yoga and was amazed at how it benefitted her everyday life. She seeks to share this holistic<br>
+healing and physical intensity with everyone she can. Her most recent adventures include make-up artistry, studying for her MBA, and planning trips around the world.</p>
+<div class="brookly-hatom-data" style="display:none;visibility:hidden;"><span class="entry-title">Teachers</span><span class="updated"> February 26th, 2016</span><span class="author vcard"><span class="fn">yogaunderground</span></span></div>                </div>
+                </div>
+
+                <div class="clear"></div>
+
+            </div>
+
+        </div>
+
+                <div id="member_9" class="ut-modal-box ut-modal-box-effect " data-id="teachers">
+
+            <div class="member-detail-box grid-parent grid-100 mobile-grid-100 tablet-grid-100 section-content">
+
+                <div class="grid-70 prefix-15 tablet-grid-100 mobile-grid-100 add-bottom">
+                    <a class="ut-hide-member-details" href="#"><i class="fa fa-times-circle  fa-large"></i></a>
+                </div>
+
+                <div class="clear"></div>
+
+
+
+
+                    <div class="ut-mfh grid-70 prefix-15 tablet-grid-100 mobile-grid-100">
+                        <figure class="member-photo-large ut-square"><img class="ut-square" alt="Millie" src="http://yogaundergroundutah.com/wp-content/uploads/2014/03/Millie.jpg"></figure>
+  <div class="member-social">
+                    </div>
+          </div>
+                <div class="grid-70 prefix-15 tablet-grid-100 mobile-grid-100">
+                <div class="member-box">
+                    <h3 class="ut-member-name">Millie</h3>
+                    <span class="ut-member-title"></span>
+                    <p>Like most twentysomethings, Millie is making the reluctant transition into adulthood. She begins a lot of conversations with, “I read this article in ‘The Atlantic’ the other day . . .” But really, she doesn’t take herself too seriously. She is a big fan of the Internet, the Spiral Jetty, and toast. Her spirit animal is Sam Weir.</p>
+<p>When she isn’t defying gravity on her yoga mat, you might find her throwing pottery, creating hilariously bad poems with her fridge magnets, or asking<br>
+for your wifi password.</p>
+<p>Her proudest moment was when she was once described as “delightfully awkward.”</p>
+<div class="brookly-hatom-data" style="display:none;visibility:hidden;"><span class="entry-title">Teachers</span><span class="updated"> February 26th, 2016</span><span class="author vcard"><span class="fn">yogaunderground</span></span></div>                </div>
+                </div>
+
+                <div class="clear"></div>
+
+            </div>
+
+        </div>
+
+                <div id="member_10" class="ut-modal-box ut-modal-box-effect " data-id="teachers">
+
+            <div class="member-detail-box grid-parent grid-100 mobile-grid-100 tablet-grid-100 section-content">
+
+                <div class="grid-70 prefix-15 tablet-grid-100 mobile-grid-100 add-bottom">
+                    <a class="ut-hide-member-details" href="#"><i class="fa fa-times-circle  fa-large"></i></a>
+                </div>
+
+                <div class="clear"></div>
+                    <div class="ut-mfh grid-70 prefix-15 tablet-grid-100 mobile-grid-100">
+                        <figure class="member-photo-large ut-square"><img class="ut-square" alt="Stephanie" src="http://yogaundergroundutah.com/wp-content/uploads/2014/03/Stephanie-Mc.jpg"></figure>
+
+
+
+                    <div class="member-social">
+                    </div>
+
+                </div>
+
+                <div class="grid-70 prefix-15 tablet-grid-100 mobile-grid-100">
+                <div class="member-box">
+                    <h3 class="ut-member-name">Stephanie</h3>
+                    <span class="ut-member-title"></span>
+                    <p>Stephanie never thought she would stick to anything the way she has to yoga. You could say she just loves everything. Graphic design is her main occupation, but she adores cats and also dogs, making furniture, collecting bottles, raising plants, practicing calligraphy, rock climbing, camping, hanging art in her home, the beach…but after her first yoga class in May 2014, she was committed to regular practice and constantly learning more.<br>
+Her main desire is to give people positive and lasting exposure to yoga so they can keep getting on their mat and changing their lives for the better.</p>
+<div class="brookly-hatom-data" style="display:none;visibility:hidden;"><span class="entry-title">Teachers</span><span class="updated"> February 26th, 2016</span><span class="author vcard"><span class="fn">yogaunderground</span></span></div>                </div>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+        </div>
+  <div class="ut-overlay"></div>
+                                        </div></div>
+                <div class="ut-scroll-up-waypoint" data-section="section-teachers"></div>
+
+                </section>
+
+              <div class="clear"></div>
+              <div id="anchor{{x}}" ng-repeat="x in [5]" class="">
+
+              </div>
+                <section id="tanha-teacher-training" data-effect="fadeIn" data-width="centered" class="page-id-4690 entry-content normal-background  light  ut-section-shadow ">
+
+                <a class="ut-offset-anchor" id="section-tanha-teacher-training" name="section-tanha-teacher-training">tanha-teacher-training</a>
+                            <div class="parallax-overlay parallax-overlay-pattern style_one">
+                                    <div class="grid-container section-header-holder">
+                                        <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
+
+                                            <header class="parallax-header pt-style-7 ">
+                                                <h2 class="parallax-title "><span>Ta<b>ṇ</b>h<b>ā</b> Teacher Training</span></h2>
+                                            </header>
+                                        </div>
+                                    </div>
+
+                                    <div class="clear"></div>
+                                        <div class="grid-container section-content"><div class="grid-100 mobile-grid-100 tablet-grid-100">
+                                           <p>The Yoga Underground is proud to offer unique, Yoga Alliance Certified teacher training programs. All programs are taught using experiential philosophy rather than a dry lecture setting. We spend as much time outside as the weather permits, hiking, snowshoeing, and healing through yoga and beautiful mother earth.</p>
+<div class="ut-spacer " style="margin-bottom: 10px;margin-top: 10px;"></div>
+<div class="clearfix train  " style="margin-bottom:15px"><div class="ut-service-column"><h3>What to expect</h3><p>
+</p><ul>
+<li>Develop a better understanding of your personal practice</li>
+<li>Learn how to facilitate meaningful, well-rounded yoga classes</li>
+<li>Better understand human physical anatomy and energy systems&nbsp;Expand your knowledge of yoga philosophies, ethics and lifestyle practices</li>
+<li>Learn how to use yoga philosophies and ideas to better your life and the lives of those around you</li>
+<li>Have a most supremely awesome time</li>
+</ul>
+<p></p></div></div>
+<div class="clear"></div>
+<div data-effect="slideInLeft" class="ut-one-half  animated slideInLeft">
+<div class="clearfix train-1  " style="margin-bottom:10px"><div class="ut-service-column"><h3>200-Hour</h3><p> 200-hour training<br>
+180 with Primary ERYT, Brittany Andrews, including:<br>
+100+ hours of asana practice<br>
+30+ hours of the philosophies that surround yoga<br>
+25+ hours of anatomy and physiology<br>
+25+ hours of teaching methodology, including building sequences<br>
+20+ hours teaching practice, assisting, and observation</p>
+<p><strong>~ $2000 ~</strong></p>
+<div class="clearfix train-12  "><div class="ut-service-column"><h3>Schedule 2017</h3><p></p></div></div>
+<ul>
+<li>March 6 – April 7 (daytime)</li>
+<li>April 17 – May 22 (nighttime)</li>
+<li>Aug 7 – Sept 8 (daytime)</li>
+<li>Oct 2 – Nov 3 (nighttime)</li>
+</ul>
+<p></p></div></div>
+<div class="clear"></div><br>
+</div>
+<div data-effect="slideInRight" class="ut-one-half ut-column-last  animated slideInRight">
+<div class="clearfix train-2  " style="margin-bottom:10px"><div class="ut-service-column"><h3>300-Hour</h3><p> Interested in adding some flavor and spice to your 200-hour training? TYU now offers an additional 300-hour training, enabling students to become certified to teach at the 500-hour level. This course offers a much more in-depth look at the body, mind, and spirit, and closely examines the balance requisite between the three in order to live peacefully and happily. Components of this will be a study of anatomy, different styles of yoga, metaphysical aspects, teaching techniques, and many other things that will give current teachers the opportunity to further develop and fine-tune existing skills. Just like our 200-hour program, this program is kept small and intimate in order to create an atmosphere where self-discovery and creativity can thrive.</p>
+<p><strong>~ $3000 ~</strong></p>
+<div class="clearfix train-22  "><div class="ut-service-column"><h3>Schedule 2017</h3><p></p></div></div>
+<ul>
+<li>Jan 9 – Feb 17 (nighttime)</li>
+<li>June 14 – July 26 (daytime)</li>
+</ul>
+<p></p></div></div>
+<div class="clear"></div><p></p>
+</div><div class="clear"></div>
+<div class="clear"></div>
+<p></p><div class="ut-spacer " style="margin-bottom: 7px;margin-top: 7px;"></div><br>
+<div class="clearfix train-3  "><div class="ut-service-column"><p>
+</p><h2 style="text-align: center;">Why choose TYU?</h2>
+<p style="text-align: center;"><span style="text-decoration: underline;"><strong>From Owner, Brittany Andrews:</strong></span></p>
+<p>– My trainings are kept extremely small and intimate, I won’t train more than 8 people at a time. In my opinion, students deserve a lot of individualized attention when participating in this kind of program. Most programs will take upwards of 25 students, and I think that renders that specific program generally ineffective.</p>
+<p>– You will learn how to sequence AND teach a class! It’s surprising how many trainings leave these very important factors out…my method involves learning teaching principles and hands-on adjustment principles from the very beginning. And you’ll get lots of teaching practice, with such a small group.</p>
+<p>– The training can get as advanced as you’d like it to be — working on basic poses? Great! Looking to nail that handstand? Fantastic! Focused on flexibility? Excellent! I don’t divide my trainings into levels, because I think that’s highly unnecessary and frankly a waste of your money. (Can’t you tell I’m an savvy businesswoman? Ha.) I am happy to work with the students in my trainings, regardless of the “level” they happen to be at the moment.</p>
+<p>– Once you’ve completed the training, you are welcome back for any subsequent trainings, free of charge.</p>
+<p>– Lastly, I participate in 100% of my training. It’s my favorite thing in the world. A lot of head instructors “outsource” the majority of their teacher trainings to other instructors, but when you sign up to train with me, you’re training with me.<br>
+</p></div></div>
+<div class="brookly-hatom-data" style="display:none;visibility:hidden;"><span class="entry-title">Ta<b>ṇ</b>h<b>ā</b> Teacher Training</span><span class="updated"> December 12th, 2016</span><span class="author vcard"><span class="fn">yogaunderground</span></span></div>
+                                        </div></div>
+                    <div class="clear"></div></div>
+            <div class="ut-scroll-up-waypoint" data-section="section-tanha-teacher-training"></div>
+
+                </section>
+
+                <div class="clear"></div>
+                    <section id="certification" data-effect="fadeIn" data-width="centered" class="page-id-4922 entry-content normal-background  dark  ut-section-shadow ">
+
+                <a class="ut-offset-anchor" data-parent="section-tanha-teacher-training" id="section-certification" name="section-certification">certification</a>
+                                        <div class="grid-container section-content"><div class="grid-100 mobile-grid-100 tablet-grid-100">
+                                          <div class="ut-one-fourth  ">
+<div style="text-align:center; "><img alt="" class="ut-animate-image animated" data-effecttype="image" data-effect="fadeIn" src="http://yogaundergroundutah.com/wp-content/uploads/2015/08/rys-110.jpg"></div>
+</div>
+<div class="ut-one-half  ">
+<p style="text-align: center;">The Yoga Underground provides training programs that meet or exceed the Yoga Alliance standards.</p>
+</div>
+<div class="ut-one-fourth ut-column-last  ">
+<div style="text-align:center; "><img alt="" class="ut-animate-image animated" data-effecttype="image" data-effect="fadeIn" src="http://yogaundergroundutah.com/wp-content/uploads/2016/06/RYS-300-110.png"></div>
+</div><div class="clear"></div>
+<p>&nbsp;</p>
+<div class="brookly-hatom-data" style="display:none;visibility:hidden;"><span class="entry-title">Certification</span><span class="updated"> June 20th, 2016</span><span class="author vcard"><span class="fn">yogaunderground</span></span></div>
+                                        </div></div>
+                <div id="anchor{{x}}" ng-repeat="x in [6]" class="ut-scroll-up-waypoint" data-section="section-certification" data-parent="section-tanha-teacher-training"></div>
+
+                </section>
+
+              <div class="clear"></div>
+                <section id="reviews" data-effect="fadeIn" data-width="centered" class="page-id-4931 entry-content normal-background  light   ">
+
+                <a class="ut-offset-anchor" id="section-reviews" name="section-reviews">reviews</a>
+                            <div class="parallax-overlay  style_one">
+                                    <div class="grid-container section-header-holder">
+
+                                        <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
+
+                                            <header class="parallax-header pt-style-7 ">
+                                                <h2 class="parallax-title "><span>Reviews</span></h2>
+                                            </header>
+                                        </div>
+                                    </div>
+                                     <div class="clear"></div>
+                                        <div class="grid-container section-content"><div class="grid-100 mobile-grid-100 tablet-grid-100">
+                                          <p>&nbsp;</p>
+<div class="ut-one-third  ">
+<div class="  "><figure class="ut-st-avatar "><img alt=" Alexandra S." src="http://yogaundergroundutah.com/wp-content/uploads/2015/08/alexandra-w80h80@2x.jpg" width="80" height="80"></figure><div class="ut-st"><header class="ut-st-header"><h3 class="ut-st-title">You won't regret</h3><span class="ut-st-date">8/3/2015</span></header><p> The teachers are amazing, the classes are glorious, and they’re always doing something fun. If you want to do yoga or already practice a lot go here. Seriously. You won’t regret it. </p><div class="ut-st-rating"><ul><li class="ut-rated"><i class="fa fa-star"></i></li><li class="ut-rated"><i class="fa fa-star"></i></li><li class="ut-rated"><i class="fa fa-star"></i></li><li class="ut-rated"><i class="fa fa-star"></i></li><li class="ut-rated"><i class="fa fa-star"></i></li></ul></div><strong class="ut-st-name"> Alexandra S.</strong><span class="ut-st-subtitle">Provo, UT</span></div></div>
+</div>
+<div class="ut-two-thirds ut-column-last  ">
+<h3>Praise From TYU Teacher Training Alumni</h3>
+
+    <script type="text/javascript">
+
+
+    (function($){
+
+      $(document).ready(function(){
+
+        $("#quoteSlider_utquote_58a3a086f2c9d").flexslider({
+          useCSS: false,
+          animation: "slide",
+
+
+          directionNav:true,
+          controlNav:false,
+          smoothHeight: true,
+          animationLoop:true,
+          slideshowSpeed: 20000,
+            prevText: "",
+            nextText: ""
+        });
+
+      });
+
+  })(jQuery);
+    </script><div class="ut-testimonials  "><div class="ut-rotate-quote-alt flexslider" id="quoteSlider_utquote_58a3a086f2c9d"><div class="flex-viewport" style="overflow: hidden; position: relative; height: 557px;"><ul class="slides" style="width: 6200%; margin-left: -9877px;"><li class="clone" aria-hidden="true" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment">I am so glad that I decided to certify with the Yoga Underground–Brittany is in it not for the money, but for the yoga, and it shows in everything she does. Her passion and creativity really drive the whole certification process from start to finish. Right after finishing the course, I started auditioning for yoga teaching jobs, and I have never once been nervous or intimidated, something I have Brittany to thank for. She makes sure that every student has ample opportunities to practice teaching full classes and gives feedback on how to improve. Beyond all that, though, is the new sense of being in the world that I have. My mindset will truly never be the same, and it is thanks to Brittany for opening so many new worlds to me!</h2><span class="ut-quote-name">Valerie</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment">I loved how in teacher training we didn’t just learn about asanas and Sanskrit, but we learned about ourselves and our emotions. The training was well-rounded and that not only helped us teach yoga, but also enabled us to navigate life more fully and meaningfully. Brittany did so much more than show us how to teach a yoga class!</h2><span class="ut-quote-name">Stephanie McAllister</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment">
+If there was another definition under leader, Brittany’s name would be there. She is an exceptional leader. She is right there with you the whole time helping you to understand, embrace and apply yourself, the Asanas, and yoga philosophy.<br>
+&nbsp;<br>
+Doing my yoga teacher training at The Yoga Underground was one of the best decisions I have ever made in my life! I will definitely be going back to  her for more training! The environment Brittany has created is beautiful. At The Yoga Underground I feel centered and free.</h2><span class="ut-quote-name">Julia Waterman</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment">Teacher training at TYU was an amazing experience. Not only did I learn a lot about the physical practice of yoga, but I gained emotional and spiritual insight as well. Brittany structured the training so that the pace was quick but with a fun and encouraging atmosphere. If you’re thinking of doing yoga teacher training, do it here!</h2><span class="ut-quote-name">Marisa Ostlund</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment">I took Brittany’s training in September, 2015. I actually had missed the start date, but was informed by Brittany that she would catch me up and that I could still join. Yoga teacher training was something I had aspired towards for a couple years at that point, yet even still, I was intimidated that I wasn’t ready or good enough. However, Brittany gave me no excuse not to jump in head first and begin, and even after the first day, I began to see my body and emotions begin to heal in a way that they had never been before.<p></p>
+<p>I have looked and researched into many yoga teacher training courses from Salt Lake to Provo, and I know this sounds cliche, but I honestly could not have picked a more magical program. What I wanted from a program, that I wasn’t quite satisfied elsewhere with, was that I wanted more than just the yoga poses, adjustments and Sanskrit names. I wanted the philosophy. I wanted a taste of what it FELT like to consider the true 8 limbs. This may sound selfish, but I wanted a program I could find healing and empowerment in for myself that I could emanate and share, because that is what yoga has always meant for me. It has always been a savior in my low moments.</p>
+<p>Brittany tapped into a way of understanding that yoga CANNOT be digested, lived, or expressed without self-love and actualization, and it is clear that through her program, she made it her mission to unravel that within us more so than just giving us facts to recite and perform. What I loved the most is that she invited a host of numerous experts and educators who specialized in everything from recovery through meditation, balancing chakras, yoga expression through dance, anatomy and physiology and the science of how to get in touch with our truest temperament type based upon our phenotype. It was so unique.</p>
+<p>To simply say that Brittany created a wonderful teacher training program would be an understatement. Honestly, it is a place of healing, of letting go, of holding on, of creating, of spreading wings, of trusting, and of flying. She cultivated Yoga Chikitsa in its most true and beautiful sense. I hold this experience close to my heart and would recommend it to all I love!</p></h2><span class="ut-quote-name">Ariana Dabier</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment">Teacher training at the yoga underground is a thoughtful fusion of yoga instruction and inward reflection. The small groups create a very open and social atmosphere while also allowing for times of quietness and contemplation. Before training started I was expecting a physical challenge. While I did get stronger, the greater challenge was to slow down, be still, and think about who you are and where you want to be. This type of spiritual guidance expands beyond yoga practice and can be relevant to many other aspects of your life and inner self. Gaining a deeper understanding yourself will help you to better connect with others and be a more effective teacher. My favorite thing about Brittany’s training is how individuality is strongly encouraged as you find your own teaching style and voice. I feel equipped to create flowing, unscripted sequences and cultivate a space with a warm, welcoming atmosphere for all levels. I highly recommend training at The Yoga Underground, it is an invaluable investment and an experience you will cherish.</h2><span class="ut-quote-name">Deidre Jaeger</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment">Yoga Teacher Training at The Yoga Underground was life-changing! I looked forward to it everyday and didn’t want it to ever end. Not only did it strengthen my own physical practice and my ability to teach, but I found that my relationships were strengthened and I had more direction and clarity everyday. I loved Stephen Nibley’s meditation classes and have had many opportunities open up to me since applying the things I learned from him. I can’t recommend YTT at TYU enough! It was completely transformative-emotionally, mentally, and spiritually.</h2><span class="ut-quote-name">Erika Eddington</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment">My favorite thing about teacher training at The Yoga Underground is the community that was built between myself, the other trainees, the teachers, and other yoga practitioners. Everyone is friendly, non-judgemental, and supportive. With a community like that behind you, you can do anything in yoga or in life.</h2><span class="ut-quote-name">Bay Vasquez</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment">The Yoga Underground offers an incredible 200 Hour Teacher Training. The training accepts varying levels of experience, which allowed me to participate and excel in the program despite having little background. The Yoga Underground cultivates a positive, outstanding environment in which I was able to be inspired and motivated to learn and grow. I love this training because it helps you become an actual yoga teacher. After helping to master foundational concepts, poses, build a personal yoga philosophy and improve on your practice, Brittany capitalizes on developing good teachers. This sets the training apart from many other options. I had the opportunity to teach consistently. Although it was scary at first, it expedited my growth and gave me confidence to teach a real class. Brittany is engaging and makes everybody feel comfortable and capable–a feat that she has successfully achieved at the Yoga Underground.</h2><span class="ut-quote-name">Maude Whittle</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment">Yoga teacher training at the yoga underground was a most inspiring yet natural experience. In learning how to care for others as a yoga instructor, it seems I’ve also learned how to care for myself. The tools I’ve gleaned from this training are invaluable to me as a future instructor, a caring friend, a healer, and a human being. Teacher training has blessed my life and I’m so glad I choose TYU. Seriously though, it rocked. And rolled. The knowledge gained was perfect in creating a solid base to which we could mold our classes in our own individual way, in a safe, constructive environment. I’d do it again in a heartbeat.</h2><span class="ut-quote-name">Jocelyn Larsen</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment">I was so impressed with the description of TYU teacher training that I flew to Utah and spent one whole month absolutely absorbed in this delightful, daily immersion program. I loved every minute of my training. Brittany is an immensely gifted teacher. Being in her classes opens up possibilities and feels life giving. Her infectious enthusiasm and “can do” attitude on the mat make you feel like you want to try anything and aspire to whatever is the next level for you. I instantly loved the open, high flying and yet down to earth feel of this studio. Everyone was accepted at the spiritual/physical level they were on and it was a beautiful experience watching everyone thrive and improve. With such a small group, we were able to get to know and provide encouragement for each other. We were taught and then given many opportunities to sequence and teach classes and receive valuable feedback as we grew in confidence and ability. Brittany kept everything alive and fresh by mixing it up and bringing in knowledgeable resources from the community to expand our knowledge of meditation, chakras, street and mandala yoga. We went out into the community and enjoyed yoga in the beautiful outdoors, a visit to BYU to learn from the resident physical trainer, even a day trip to Salt Lake City to attend classes at different yoga studios to broaden our horizons. It was highly evident that Brittany puts her all into her teacher trainings, expertly and magically weaving together all of these different elements seemingly into the very fabric of my being so that at the end of the training I felt different from when I first started. My month in Utah flew by and I left feeling charged up and empowered with the experience, skills, and confidence I needed to teach and share with others the life giving skills I was privileged to receive. I highly recommend this teacher training to anyone and everyone who is interested in transformation. The Yoga Underground rocks!!!</h2><span class="ut-quote-name">Shari</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment"> Certifying with The Yoga Underground was truly a beautiful experience. Going into the process I worried if I would be ready to teach successfully in such a short 5 week time period. I finished this program not only capable but with ability and excitement to continue on my journey. The teacher Brittany brought professionalism, fun, and an abundant amount of passion and connection. This is a fantastic opportunity for everyone.</h2><span class="ut-quote-name">Holly</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment"> Teacher training at The Yoga Underground was more than a certificate for me. Being my second teacher training I wish I would have made it my first. Thank you, for the priceless knowledge and experience. Thank you, for the skills, the laughs, and the confidence. </h2><span class="ut-quote-name">Kate</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment"> The Yoga Underground training was so awesome. With the small class size, it allowed Brittany to be able to help us one on one in learning about and perfecting our practice. I cherish the friends and new memories that were created and the experience that I now have.</h2><span class="ut-quote-name">Chelsey</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment"> Teacher training at Yoga Underground was amazing. It did wonders for my personal practice and understanding of yoga, and it helped me learn to be a better teacher. Brittany is an amazing instructor. She is knowledgeable and passionate and caring, and I feel blessed to have had the chance to learn from her and become her friend. Teacher training was a beautiful, transformative experience, and I am profoundly grateful to have taken part in it.</h2><span class="ut-quote-name">Christian</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment"> All I can say is that Brittany’s training was like eating poprocks. It’s full of surprises, delicious, and makes you feel like a kid.</h2><span class="ut-quote-name">Alex</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment"> YTT at the yoga underground is by far the best place a person could go to deepen his or her personal practice or become certified.. Or both! there is a balance between learning the physical practice and the ideas/origin of yoga that creates a great foundation to continue learning from. By the end of YTT, I felt excited and ready to teach classes and confident that I was trained well enough to know what I’m doing. And the place just has great vibes. <img draggable="false" class="emoji" alt="🙂" src="https://s.w.org/images/core/emoji/2.2.1/svg/1f642.svg"></h2><span class="ut-quote-name">Amber</span></li>
+<li class="flex-active-slide" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment"> My yoga teacher training experience at the Yoga Underground was absolutely priceless. Brittany is an incredible teacher, and is an expert when it comes to building creative sequences and crafting an effective class. I learned so much from practicing with her daily and gleaning from her wisdom and experience in our class discussions. Her curriculum is designed to give her students fundamental knowledge base in Ashtanga Yoga while also providing a wide variety of experiences, allowing each student to find their own individual direction in the broad world of yoga. Each day of training was enlightening, educational, and so much fun!<p></p>
+<p>The two most valuable things I took away from her training were 1) the teaching experience — Brittany is skillful at teaching her students how to teach, and provides many opportunities for them to practice teaching in the training; and 2) the confidence to be an authentic teacher. Brittany has a gift for helping people discover their voice as a yoga teacher, encouraging them to “own” their individual style and strengths that they bring to a class. With these two skills, I felt confident pursuing teaching opportunities immediately after receiving my certification. My current students often comment on how much they enjoy my style of teaching and approach to yoga — I give all the credit to my training at The Yoga Underground!</p></h2><span class="ut-quote-name">Holli</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment"> I’ve wanted to do a yoga teacher training since I graduated college four years ago. While I loved the idea, I was also so intimidated, thinking I needed to be a certain type of person, have a certain type of body, or even have reached a certain level in my yoga practice. After a friend did her training with Brittany at The Yoga Underground, she convinced me I could do it. After the first day, all of my fears dissipated. Brittany’s program welcomes all levels and all types. Her curriculum is designed to help you better know yourself so that you can be a more effective, authentic teacher. The program is so well-rounded; I not only gained knowledge about Ashtanga yoga and how to better my own practice, but also learned life-changing lessons about meditation, teaching techniques, and methods to better know and understand myself and my students. I love that Brittany focused so much on us becoming the type of teacher we naturally are, not trying to fit any kind of stereotype or expectation.<p></p>
+<p>The teacher training at The Yoga Underground completely changed my life. Once I finished, I had the confidence and knowledge I needed to build my own sequences and teach classes, but most importantly I’ve enjoyed better health, less stress, and honestly a more joyful life. I cannot say enough about this program and the passion, love, and fun that Brittany so naturally brings to it every day. You will not find a more compassionate, positive environment to deepen your practice, increase your self-knoweldge, love, and awareness, and transform you into a yoga teacher.<br>
+</p></h2><span class="ut-quote-name">Alison</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment"> The Yoga Underground not only gave me the required 200 hours(and then some) for my teaching certification, it literally gave me a new lease on life. I found a fresh sense of self, healthy body, and a clearer mind. What I gained during training is something that money cannot buy. In terms of knowledge, in terms of practice, this studio is unparalleled.<br>
+There isn’t a distance I wouldn’t travel to in order to participate and attend The Yoga Underground Teacher Training Program. There are very few times in life, very rare breeds of teachers, whom one is fortunate enough to be touched by as a student. Brittany is, and forever will be held in my highest regard. She represents all that was, all that is, and all that will be true in this practice.<p></p>
+<p>Whatever your hesitation, stop. Whatever the excuse, dismiss it. The Yoga Underground will change your life in every way possible. Brittany has one of the oldest soul’s of anyone I have ever been blessed enough to meet. Her intuitive capacity for teaching and exploring remains a mystery to me. All that I know is that I am by far, a better human for being around her. As a teacher, I have never appreciated another student until taking her training. She is the very definition of unconditional love.</p>
+<p>Thank you. Thank you on so many levels for pushing me, for holding me, for making me stand on my own two feet. You have given me the tools to not only teach, but to hone my craft. To love my own practice, to love my own habitually incorrect alignment, to breathe, to focus to forgive. Every day on the mat is another chance. A chance to try again. You have given me the strength to pursue, to engage, to believe in my inherent passion. Brittany, this is a debt that can never be repaid. This life experience is unmatched.</p>
+<p>Thank you Brittany. Thank you for seeing the lump of clay that I was before you, and for allowing the process to mold me. You will always be my North.</p></h2><span class="ut-quote-name">Danni</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment"> Last summer I did yoga teacher training with Brittany at the Yoga Underground and it was one of the best months of my life. I learned so much, not only about yoga, but about life and myself. I went into teacher training not knowing for sure if I really wanted to teach or if it would just be a way for me to improve my practice. Well, my practice inevitably improved, but I also found a LOVE for teaching and spreading the happiness, peace, and physical and mental strength (that comes from yoga) with others. Brittany is one of the most amazing people and teachers that you will ever meet with the biggest heart. She will provide you with the knowledge, confidence, and strength that you need to vastly in improve your yoga practice, as well as your ability to spread all that awesomeness to others through teaching. Your life will absolutely improve by doing yoga teacher training at the Yoga Underground. Definitely recommend it! </h2><span class="ut-quote-name">Carson Crawford</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment"> Teaching training at The Yoga Underground was one of the best things I’ve ever done for my practice, my teaching, and myself. I learned so much and enjoyed every moment. </h2><span class="ut-quote-name">Teri</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment"> The words "amazing" and "life-changing" are often overused or misused nowadays. However, when I say these words to describe yoga teacher training at The Yoga Underground I mean them in their entirety. It was life-changing.  I live my day-to-day life differently now because of what I learned. I have grown to understand, love, and accept myself better. I have less stress and anxiety and I am an overall happier person.  Brittany is an amazing teacher and has created a curriculum that caters to all kinds of people. She knows how to connect and encourage you in the ways that will best help you. I went into teacher training thinking I would only learn about how to teach yoga but I came out of it with a different and improved perspective on living. I would highly recommend this training to anyone. </h2><span class="ut-quote-name">Gabe</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment"> If you’re considering taking the 200-hour yoga training, The Yoga Underground and Brittany are a fantastic choice. The program is a life-changer in confidence, mental health, and physical well being. You are never to old to improve!!! </h2><span class="ut-quote-name">Jyll</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment">Brittany was a wonderful instructor. Her energetic personality made learning easy and fun. Her hands on approach to teaching yoga was incredibly efficient. This course is well worth your time!</h2><span class="ut-quote-name">Brianna</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment">I would recommend the training to anyone. It was more than I expected in multiple ways – I came away feeling confident in the teaching foundation I had received and also felt like I just learned so much about life and myself and others. It was so fun and truly life changing and so so worth the investment!</h2><span class="ut-quote-name">Hilary</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment">My training at the Yoga Underground was incredibly uplifting for my mind, body, and spirit. Brittany is a deep well of knowledge and gladly answers any questions about any aspect of yoga teaching throughout the course. I got so much out of the YTT program. I have heard of students who graduate from other teacher training programs and feel that they don’t actually know HOW to teach. They feel clueless when put in front of a group of students. I left the Yoga Underground’s program knowing full well how to teach any group of students from start to finish. The program goes in depth on certain topics such as poses, breathing, and mindfulness, while also covering the basics of teaching yoga, which many other training programs often leave out. My favorite thing about the course was that Brittany, The Yoga Underground’s studio owner and extremely educated and trained yogi, teaches the entire 200-hour course, aside from a handful of days in which she hires outside professionals to come in and share some valuable information on their area of expertise. She is dedicated to seeing her YTT students succeed!</h2><span class="ut-quote-name">Chanelle</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment">I signed up with the yoga underground to do my teacher training because of the comfort I received taking classes there. Brittany goes above and beyond to make sure you feel loved, important, and like part of the Yoga Underground family. I graduated with such a large understanding of yoga and an even bigger understanding of myself. I would highly recommend this program to anyone, even if you aren’t looking to teach. You will not be disappointed.</h2><span class="ut-quote-name">Alex</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment">My favorite thing about the training at the Yoga Underground was how flexible Brittany is about things. I had a work event that made me have to miss a week of the training, and she was so accommodating and allowed me to make it up, and that’s how she always was about everything. She didn’t stress about formalities or strict rules–she just wanted to make sure you learned what you specifically needed to be the best teacher you could be.</h2><span class="ut-quote-name">Michelle</span></li>
+<li class="" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment">I am so glad that I decided to certify with the Yoga Underground–Brittany is in it not for the money, but for the yoga, and it shows in everything she does. Her passion and creativity really drive the whole certification process from start to finish. Right after finishing the course, I started auditioning for yoga teaching jobs, and I have never once been nervous or intimidated, something I have Brittany to thank for. She makes sure that every student has ample opportunities to practice teaching full classes and gives feedback on how to improve. Beyond all that, though, is the new sense of being in the world that I have. My mindset will truly never be the same, and it is thanks to Brittany for opening so many new worlds to me!</h2><span class="ut-quote-name">Valerie</span></li>
+<li class="clone" aria-hidden="true" style="width: 581px; float: left; display: block;"><i class="ut-rq-icon fa fa-quote-right"></i><h2 class="ut-quote-comment">I loved how in teacher training we didn’t just learn about asanas and Sanskrit, but we learned about ourselves and our emotions. The training was well-rounded and that not only helped us teach yoga, but also enabled us to navigate life more fully and meaningfully. Brittany did so much more than show us how to teach a yoga class!</h2><span class="ut-quote-name">Stephanie McAllister</span></li></ul></div></div></div>
+</div><div class="clear"></div>
+<p>&nbsp;</p>
+<div class="brookly-hatom-data" style="display:none;visibility:hidden;"><span class="entry-title">Reviews</span><span class="updated"> December 13th, 2016</span><span class="author vcard"><span class="fn">yogaunderground</span></span></div>
+                                            </div></div>
+                    <div class="clear"></div></div>
+
+
+                <div id="anchor{{x}}" ng-repeat="x in [7]" class="ut-scroll-up-waypoint" data-section="section-reviews"></div>
+
+                </section>
+            <div class="clear"></div>
+                <section id="events-retreats" data-effect="fadeIn" data-width="centered" class="page-id-5012 entry-content normal-background  light  ut-section-shadow ">
+
+                <a class="ut-offset-anchor" id="section-events-retreats" name="section-events-retreats">events-retreats</a>
+                            <div class="parallax-overlay parallax-overlay-pattern style_one">
+                                    <div class="grid-container section-header-holder">
+
+                                        <div  class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
+
+                                            <header class="parallax-header pt-style-7 ">
+                                                <h2 class="parallax-title "><span>Events &amp; Retreats</span></h2>
+
+
+                                            </header>
+                                        </div>
+
+
+                                    </div>
+
+                                    <div class="clear"></div>
+
+                                      <div class="grid-container section-content"><div class="grid-100 mobile-grid-100 tablet-grid-100">
+                                        <div data-effect="slideInLeft" class="ut-one-half  animated slideInLeft">
+<h3 style="text-align: center;">Namaste in Nature Retreat</h3>
+<p style="text-align: center;">Brian Head, Utah</p>
+<p style="text-align: center;">Dates: May 4 – 7, 2017</p>
+<p style="text-align: center;">Information &amp; to register visit: <a href="http://yogaundergroundutah.com/event/namaste-in-nature-retreat//" style="color:#E8C5EA;">Namaste in Nature Retreat</a></p>
+</div>
+<div data-effect="slideInRight" class="ut-one-half ut-column-last  animated slideInRight">
+<h3 style="text-align: center;">Beginner’s Workshop Series</h3>
+<p style="text-align: center;">Dates:  the last Saturday of every month at 2pm</p>
+<p style="text-align: center;">We will explore different elements of yoga. All classes of the Beginner’s Workshop Series are FREE!</p>
+</div><div class="clear"></div>
+<p style="text-align: center;">
+</p><p style="text-align: center;"> ___ </p>
+<h3 style="text-align: center;">Inversions + Flow Workshops with <a href="https://www.instagram.com/laurasykora/" target="_blank" style="color: #EDDEED;">@laurasykora!</a></h3>
+<p style="text-align: center;">The Yoga Underground Studio,<br>Provo, 201 W Center Street</p>
+<p style="text-align: center;">Dates: March 24th &amp; 25th 2017</p>
+<p style="text-align: center;">Information &amp; to register visit: <a href="http://yogaundergroundutah.com/product-category/laurasykora/" style="color:#E8C5EA;">Inversions + Flow Workshops with Laura</a></p>
+<p>&nbsp;</p>
+<p style="text-align: center;"> ___ </p>
+<p>&nbsp; </p>
+<p style="text-align: center;"><strong>Check back for more details!</strong></p>
+<div class="brookly-hatom-data" style="display:none;visibility:hidden;"><span class="entry-title">Events &amp; Retreats</span><span class="updated"> February 13th, 2017</span><span class="author vcard"><span class="fn">yogaunderground</span></span></div>
+                                        </div></div>
+
+                    <div class="clear"></div></div>
+
+                <div class="ut-scroll-up-waypoint" data-section="section-events-retreats"></div>
+<div id="anchor{{x}}" ng-repeat="x in [8]" class="">
+
+</div>
+                </section>
+
+              <div class="clear"></div>
+                <section id="healing-arts" data-effect="fadeIn" data-width="centered" class="page-id-5021 entry-content normal-background  dark   ">
+
+                <a class="ut-offset-anchor" id="section-healing-arts" name="section-healing-arts">healing-arts</a>
+                            <div class="parallax-overlay  style_one">
+
+                                    <div class="grid-container section-header-holder">
+
+
+                                        <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
+
+                                            <header class="parallax-header pt-style-7 ">
+                                                <h2 class="parallax-title "><span>Healing Arts</span></h2>
+
+
+                                            </header>
+                                        </div>
+
+                                  </div>
+                                    <div class="clear"></div>
+
+                                      <div class="grid-container section-content"><div class="grid-100 mobile-grid-100 tablet-grid-100">
+                                        <p style="text-align: center;"><em>This extension of our studio is designed to bring together healing arts of all kinds and make them available to the general public.</em></p>
+<p style="text-align: center;">Stephen Nibley, private meditation</p>
+<p style="text-align: center;">Alex Paulos, temperament analysis and life coaching</p>
+<p style="text-align: center;">Dean Judd, yoga for multiple sclerosis and scoliosis</p>
+<p style="text-align: center;">Toni Lock, Qigong and Thai Chi</p>
+<p style="text-align: center;">Eric Ward, emotional processing</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><a href="#section-contact">For more information or to schedule an appointment, contact us.</a></p>
+<div class="brookly-hatom-data" style="display:none;visibility:hidden;"><span class="entry-title">Healing Arts</span><span class="updated"> October 8th, 2015</span><span class="author vcard"><span class="fn">yogaunderground</span></span></div>
+                                        </div></div>
+                    <div class="clear"></div></div>
+
+
+                <div id="anchor{{x}}" ng-repeat="x in [9]" class="ut-scroll-up-waypoint" data-section="section-healing-arts"></div>
+
+                </section>
+
+                <div class="clear"></div>
+    </div>
+
+    <div class="clear"></div>
+
+    <section id="contact-section" data-effect="fadeIn" class="animated contact-section  light  ">
+
+    <a class="ut-offset-anchor" id="section-contact"></a>
+
+        <div id="anchor{{x}}" ng-repeat="x in [9]" class="parallax-overlay parallax-overlay-pattern style_one">
+
+        <div class="grid-container parallax-content">
+
+            <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
+                <header class="parallax-header pt-style-7">
+
+                                          <h2 class="parallax-title"><span>CONTACT</span></h2>
+
+                                          <p class="lead">Questions? Comments? Interested in Teacher Training? Here's your chance to let us know!</p>
+
+                </header>
+            </div>
+
+            <div class="clear"></div>
+
+      </div>
+        <div class="grid-container section-content">
+
+            <div class="grid-100 mobile-grid-100 tablet-grid-100 grid-parent">
+                <div class="contact-wrap">
+
+                    <div class="grid-45 suffix-5 mobile-grid-100 tablet-grid-50">
+                        <div class="ut-left-footer-area clearfix">
+
+                            <h4>Our address</h4>
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-home"></i>The Yoga Underground is on the Southwest Corner of Center St. &amp; Freedom Blvd. in Provo, UT</li>
+</ul>
+<h4>Keep in touch</h4>
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-phone"></i>801.473.1504</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+                        </div>
+                    </div>
+                    <div class="grid-50 mobile-grid-100 tablet-grid-50">
+                        <div class="ut-right-footer-area clearfix">
+
+                            <h4>Drop us a line</h4>
+<p></p><div role="form" class="wpcf7" id="wpcf7-f32-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="/#wpcf7-f32-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="32">
+<input type="hidden" name="_wpcf7_version" value="4.6.1">
+<input type="hidden" name="_wpcf7_locale" value="en_US">
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f32-o1">
+<input type="hidden" name="_wpnonce" value="5e5110ec5e">
+</div>
+<p>Your Name (required)<br>
+    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></span> </p>
+<p>Your Email (required)<br>
+    <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false"></span> </p>
+<p>Your Message<br>
+    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </p>
+<p><input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span></p>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form></div><p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+        </div>
+  </section>
+  <ui-view></ui-view>
+<div class="clear"></div>
+    <footer class="footer ut-footer-dark">
+            <a href="#top" class="toTop"><i class="fa fa-angle-double-up"></i></a>
+        <div class="footer-content">
+            <div class="grid-container">
+                <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
+                    <h5>The Yoga Underground © 2015 <i class="fa fa-heart"></i> Owner Brittany Andrews<br>All Photos copyright by Tianna Horito 2015</h5>
+                    <ul class="ut-footer-so"><li><a title="Instagram" href="http://instagram.com/theyogaunderground"><i class="fa fa-instagram fa-lg"></i></a></li></ul>
+                    <span class="copyright">
+                        Powered by <a href="http://wordpress.org/" title="A Semantic Personal Publishing Platform" data-rel="generator"> WordPress</a>
+                        Theme: Brooklyn by <a href="http://themeforest.net/item/brooklyn-creative-one-page-multipurpose-theme/6221179?ref=UnitedThemes" data-rel="designer">United Themes</a></span>
+                </div>
+            </div>
+        </div>
+  </footer>
+  </body>

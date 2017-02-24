@@ -1,0 +1,24 @@
+#container {
+    margin: 0px auto;
+    width: 900px;
+    height: 775px;
+    border: 10px #333 solid;
+}
+#videoElement {
+    width: 900px;
+    height: 775px;
+    background-color: #666;
+}
+@media (max-width: 700px) {
+  #container {
+    margin: 0px auto;
+    width: 350px;
+    height: 350px;
+    border: 10px #333 solid;
+  }
+  #videoElement {
+    width: 350px;
+    height: 350px;
+    background-color: #666;
+  }
+}

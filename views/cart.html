@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="./styles/cart.css">
+<body ng-app="yoga" ng-controller="stripeCtrl">
+
+  <nav class="top-bar" data-topbar="">
+    <ul class="title-area">
+      <li class="name">
+        <h1>
+          <a href="#">
+            The Yoga Undergrounds Online Classes
+          </a>
+        </h1>
+      </li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Home Menu</span></a></li>
+    </ul>
+  </nav>
+
+
+
+  <ul class="product-list small-block-grid-3">
+    <li ng-repeat="product in products">
+      <figure>
+        <img ng-src="{{product.image}}" alt="{{product.title}}">
+        <figcaption>
+          <h3>{{product.title}}, {{product.price}}$</h3>
+          <button ng-click="addToCart(product);">Add to cart</button>
+        </figcaption>
+      </figure>
+    </li>
+  </ul>
+<!-- id='foo' -->
+  <div ng-if="cart.length" class="shopping-cart">
+    <h2><font color="black"> {{cart.length}} item in the cart, {{getCartPrice()}}$ </font></h2>
+
+    <span class="cart-item th radius" ng-repeat="product in cart">
+
+      <span class="badge" ng-show="product.quantity > 1">
+        x{{product.quantity}}
+      </span>
+    </span>
+<!-- onclick='document.getElementById("foo").style.display = "none"' -->
+    <button ui-sref='checkout'>Checkout</button>
+  </div>
