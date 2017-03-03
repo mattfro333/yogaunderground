@@ -3,7 +3,7 @@
 
 
 angular.module('yoga')
-.controller("stripeCtrl", function($scope, $http, $modal) {
+.controller("cartCtrl", function($scope, $http, $modal) {
     $scope.cart = [];
     $http.get('products.json').success(function (response) {
 			$scope.products = response.products;

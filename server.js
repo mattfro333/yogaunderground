@@ -174,7 +174,7 @@ create:function(req, res, next){
   db.payment.create_payment([
     req.body.name,
     req.body.amount,
-    req.body.dat,
+    req.body.date,
     req.body.userid
   ], function(err, results){
     if (err){

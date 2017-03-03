@@ -71,13 +71,14 @@
             var engine = new RainyDay({
                 image: this
             });
-            engine.rain([ [2, 2, 100] ]);
-            engine.rain([ [3, 3, 0.88], [5, 5, 0.9], [6, 2, 1] ], 100);
+            engine.rain([ [3, 3, 75] ]);
+            engine.rain([ [3, 3, 0.88], [5, 5, 0.9], [6, 2, 1] ], 200);
         };
         image.crossOrigin = 'anonymous';
         image.src = 'https://scontent-sjc2-1.cdninstagram.com/t51.2885-15/e35/16788817_1345988402142297_8231195610355597312_n.jpg';
     }
 </script>
+
 </head>
 
   <body onload="run();">
@@ -156,5 +157,6 @@
     <script src="./js/controllers/mainCtrl.js"></script>
     <script src="scripts.js"></script>
     <script src="./js/controllers/CheckoutCtrl.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
   </body>
 </html>

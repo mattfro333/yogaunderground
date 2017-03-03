@@ -13,7 +13,7 @@ stripeProvider.setPublishableKey('pk_test_yjy2R0bdrbeMzFvZejXdiQAU');
             .state('cart', {
               url: '/cart',
               templateUrl: '../views/cart.html',
-              controller: 'stripeCtrl'
+              controller: 'cartCtrl'
             })
 
             .state('checkout', {

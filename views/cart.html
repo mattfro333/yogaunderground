@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="./styles/cart.css">
-<body ng-app="yoga" ng-controller="stripeCtrl">
+<body ng-app="yoga" ng-controller="cartCtrl">
 
   <nav class="top-bar" data-topbar="">
     <ul class="title-area">
@@ -29,7 +29,7 @@
   </ul>
 <!-- id='foo' -->
   <div ng-if="cart.length" class="shopping-cart">
-    <h2><font color="black"> {{cart.length}} item in the cart, {{getCartPrice()}}$ </font></h2>
+    <h2> {{cart.length}} Item in the Cart, {{getCartPrice()}}$</h2>
 
     <span class="cart-item th radius" ng-repeat="product in cart">
 
