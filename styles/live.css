@@ -1,4 +1,4 @@
-#container {
+/*#container {
     margin: 0px auto;
     width: 900px;
     height: 775px;
@@ -20,7 +20,7 @@
     height: 350px;
     background-color: #666;
   }
-}
+}*/
   body {
     background-position: center;
     background-image: url("http://www.belovedyoga.com/wp-content/uploads/2016/03/reston-yoga-studio-2.jpg");
@@ -41,6 +41,41 @@
    display: flex;
    justify-content: center;
  }
+
+ /*header {
+  background: #eee;
+  padding: 20px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header a:first-child {
+  float: right;
+  margin: 0 0 20px 30px;
+}
+
+button {
+  display: inline-block;
+  position: relative;
+  top: 110px;
+  left: 110px;
+  z-index: 10;
+}*/
+
+/*video {
+  width: 267px;
+  height: 200px;
+  border: 1px solid white;
+  outline: 1px solid #ccc;
+  z-index: 5;
+}*/
+
+/*#myvideo {
+  transform: rotateY(-180deg);
+}
+
+#start {
+  display: none;
+}*/
   /*.container{
     display: flex;
     justify-content: center;

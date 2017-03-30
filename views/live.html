@@ -1,3 +1,110 @@
+
+<body>
+<!-- <script src="//cdn.temasys.io/skylink/skylinkjs/0.6.x/skylink.complete.js"></script>
+
+
+  <header>
+    <a href="http://temasys.github.io" target="_blank">SkylinkJS on Github</a>
+    You're in a private room. Please click &quot;Start&quot;, allow access to your microphone and camera and <a href="https://codepen.io/temasys/pen/GogabE" target="_blank">click here</a> to open this page in a new tab. You're joining yourself for a fun call ;)
+  </header>
+
+  <p id="status">Loading room information...</p>
+
+  <div id="start">
+    <button  onclick="start(event)">Start</button><br/>
+    <video id="myvideo" autoplay muted></video>
+  </div>
+
+
+
+<script>
+var skylink = new Skylink();
+skylink.setLogLevel(4);
+skylink.on('peerJoined', function(peerId, peerInfo, isSelf) {
+  if(isSelf) return; // We already have a video element for our video and don't need to create a new one.
+  var vid = document.createElement('video');
+  vid.autoplay = true;
+  vid.muted = true; // Added to avoid feedback when testing locally
+  vid.id = peerId;
+  document.body.appendChild(vid);
+});
+
+skylink.on('incomingStream', function(peerId, stream, isSelf) {
+  if(isSelf) return;
+  var vid = document.getElementById(peerId);
+  attachMediaStream(vid, stream);
+});
+
+skylink.on('peerLeft', function(peerId) {
+  var vid = document.getElementById(peerId);
+  document.body.removeChild(vid);
+});
+
+skylink.on('mediaAccessSuccess', function(stream) {
+  var vid = document.getElementById('myvideo');
+  attachMediaStream(vid, stream);
+});
+
+skylink.init({
+  apiKey: '186aee5e-d68c-4a58-a5c8-9dbdda4e4d28',//'52a88d04-cc43-4e3d-b911-ead23a5fa0c8', // Get your own key at developer.temasys.com.sg
+  defaultRoom: 'Yoga at Home'//getRoomId()
+}, function (error, success) {
+  if (error) {
+    document.getElementById('status').innerHTML = 'Failed retrieval for room information.<br>Error: ' + (error.error.message || error.error);
+  } else {
+       document.getElementById('status').innerHTML = 'Room information has been loaded. Room is ready for user to join.';
+    document.getElementById('start').style.display = 'block';
+  }
+});
+
+function start(event) {
+  event.target.style.visibility = 'hidden';
+
+  skylink.joinRoom({
+    audio: true,
+    video: true
+  }, function (error, success) {
+    if (error) {
+      document.getElementById('status').innerHTML = 'Failed joining room.<br>' +
+  'Error: ' + (error.error.message || error.error);
+    } else {
+      document.getElementById('status').innerHTML = 'Joined room.';
+    }
+  });
+}
+
+
+/* Helper functions */
+
+function getRoomId() {
+  var roomId = document.cookie.match(/roomId=([a-z0-9-]{36})/);
+  if(roomId) {
+    return roomId[1];
+  }
+  else {
+    roomId = skylink.generateUUID();
+    var date = new Date();
+    date.setTime(date.getTime() + (30*24*60*60*1000));
+    document.cookie = 'roomId=' + roomId + '; expires=' + date.toGMTString() + '; path=/';
+    return roomId;
+  }
+};
+
+</script> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <link rel="stylesheet" href="./styles/live.css">
 <h1>Hello Welcome to Class!</h1>
 <body>
@@ -6,7 +113,7 @@
 <script type="text/javascript">
 var config = {
   openSocket: function (config) {
-      var SIGNALING_SERVER = 'https://socketio-signaling.herokuapp.com/',
+      var SIGNALING_SERVER = 'http://45.55.219.37/',
           defaultChannel = location.href.replace(/\/|:|#|%|\.|\[|\]/g, '');
 
       var channel = config.channel || defaultChannel;
@@ -106,14 +213,14 @@ function captureUserMedia(callback) {
   <button class=button id="setup-new-room"> Click here to Start Class</button>
 </div>
   <table style="width: 100%;" id="rooms-list"></table>
-  <div id="videos-container"></div>
+  <div id="videos-container"></div> --> -->
 
-<!-- <div id="container">
+<div id="container">
     <video autoplay="true" id="videoElement">
 
     </video>
 </div>
-<script>
+<!-- <script>
 var video = document.querySelector("#videoElement");
 
 navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia || navigator.oGetUserMedia;
