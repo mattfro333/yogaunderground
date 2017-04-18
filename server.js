@@ -7,7 +7,8 @@ const express =  require('express'),
       config = require('./config'),
       stripe = require('stripe')('sk_test_ojIEBahfiCZioN7BIQjalw3A'),
       // stripe = require('passport-stripe'),
-      cors = require('cors');
+      cors = require('cors'),
+      socketio = require('socket.io');
 
 const app = express();
 // Connect to front end!!!!
