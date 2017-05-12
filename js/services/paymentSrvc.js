@@ -1,5 +1,5 @@
 angular.module('yoga').service('paymentSrvc', function($http){
-  this.getpPayments = function(){
+  this.getPayments = function(){
     return $http.get('/api/payments').then(function(response){
       return response.data
     }).catch(errHandler)

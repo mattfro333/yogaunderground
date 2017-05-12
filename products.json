@@ -2,19 +2,19 @@
 	{
 		"id": 1,
 		"title": "One Week Membership",
-		"image": "https://scontent-sjc2-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/c202.0.675.675/16788575_1182882338504665_5475752164716445696_n.jpg",
+		"image": "../img/yoga1.jpg",
 		"price": 20
 	},
 	{
 		"id": 2,
 		"title": "One Month Membership",
-		"image": "https://scontent-sjc2-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/15258595_372957079707956_5501943017021374464_n.jpg",
+		"image": "./img/yoga2.jpg",
 		"price": 40
 	},
 	{
 		"id": 3,
 		"title": "Three Month Membership",
-		"image": "https://scontent-sjc2-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/16110152_108772279633344_174901367624695808_n.jpg",
+		"image": "./img/yoga3.jpg",
 		"price": 100
 	}
 ]}
