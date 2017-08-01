@@ -1,4 +1,4 @@
-angular.module('yoga',['ui.router', 'mm.foundation', 'ngAnimate', 'angularSpinner', 'angular-stripe', 'ui.bootstrap']).config(function($stateProvider, $urlRouterProvider, stripeProvider){
+angular.module('yoga',['ui.router', 'mm.foundation', 'ngAnimate', 'angularSpinner', 'angular-stripe', 'ui.bootstrap', 'youtube-embed']).config(function($stateProvider, $urlRouterProvider, stripeProvider){
 stripeProvider.setPublishableKey('pk_test_yjy2R0bdrbeMzFvZejXdiQAU');
             $stateProvider
             .state('home', {
@@ -8,7 +8,8 @@ stripeProvider.setPublishableKey('pk_test_yjy2R0bdrbeMzFvZejXdiQAU');
             })
             .state('live', {
               url: '/live',
-              templateUrl: '../views/live.html'
+              templateUrl: '../views/live.html',
+              controller: 'liveCtrl'
             })
             .state('cart', {
               url: '/cart',
